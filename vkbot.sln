@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tavernBot", "tavernBot.pyproj", "{1CD19216-8CE9-4EC6-B09A-3F82B8E8B082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD19216-8CE9-4EC6-B09A-3F82B8E8B082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD19216-8CE9-4EC6-B09A-3F82B8E8B082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1B6F609-F02B-4608-B633-692A73945372}
+	EndGlobalSection
+EndGlobal
