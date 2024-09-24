@@ -11,7 +11,10 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 from models import User, Game
 import database
 
-bot = telebot.TeleBot('6959698313:AAFdydVvZvEbJ-n8kb6OKlZTJyATQPCVkIQ')
+config = open('config.txt', 'r')
+api = config.read()
+print(api)
+bot = telebot.TeleBot(api)
 
 #=======================================================================ADMINS_LOADER====================================================
 adminsIdFile = open('adminsID.txt', 'r')
